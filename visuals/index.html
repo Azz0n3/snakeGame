@@ -1,0 +1,32 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Snake Game</title>
+</head>
+
+<body>
+    <center>
+        <div id="game-area">
+            <h1>Snake Game</h1>
+            <div id="points-wrapper"><h5>Points: <span id="points-marker">0</span></h5></div>
+            <div id="canvas-wrapper">
+                <canvas id="snake-screen" width="400" height="400">
+                </canvas>
+                <canvas id="debug-screen" width="400" height="400">
+                </canvas>
+            </div>
+        </div>
+        
+        <div class="margin debug">
+            <button id="start-button">Start</button>
+            <button id="reset-button">Reset</button>
+        </div>
+    </center>
+
+    <script src="../scripts/snake.js"></script>
+</body>
+
+</html>
